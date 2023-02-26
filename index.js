@@ -51,8 +51,9 @@ const musaScore = createJambScores(70, 85, 82, 94);
 console.log(musaScore);
 
 // Merging the object musaScore as a property to musaObj object
-const musa = Object.assign(musaObj, musaScore);
-console.log(musa);
+Object.assign(musaObj, musaScore);
+console.log(musaObj);
+
 
 
 
