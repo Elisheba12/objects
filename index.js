@@ -1,7 +1,7 @@
 // Question 1
 
-function InstagramPost(Handle, content, imageLink, numberOfViews, numberOfLikes) {
-    this.Handle = Handle;
+function InstagramPost(handle, content, imageLink, numberOfViews, numberOfLikes) {
+    this.Handle = handle;
     this.content = content;
     this.imageLink = imageLink;
     this.numberOfViews = numberOfViews;
